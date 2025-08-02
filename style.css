@@ -1,0 +1,29 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.jumbotron {
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  padding: 3rem 1.5rem;
+}
+
+.card {
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+  .card-title {
+    font-size: 1.2rem;
+  }
+  .card-text {
+    font-size: 0.95rem;
+  }
+}
